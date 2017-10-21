@@ -8,8 +8,20 @@ module.exports = {
     publicPath: ''
   },
   module: {
+    rules: [
+      {
+        enforce: 'pre',
+        test: /\.js$/,
+        use: 'eslint-loader',
+      },
+      {
+        use: 'babel-loader',
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+      },
+    ],
     loaders: [
-      { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader?presets[]=react' }
+      { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader?presets[]=react&presets[]=env' }
     ]
   },
   devServer: {
