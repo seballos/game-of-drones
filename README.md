@@ -1,6 +1,6 @@
 # [Game Of Drones](https://github.com/seballos/game-of-drones)
 
-An extremely addictive game of using react, react-router, webpack and css modules in development
+An extremely addictive game of using react, react-router, webpack in development
 
 ## Tools
 
