@@ -10,6 +10,7 @@ import App from './components/App'
 import InitialScreen from './components/InitialScreen'
 import Round from './components/Round'
 import WinnerScreen from './components/WinnerScreen'
+import ScoreHistory from './components/ScoreHistory'
 
 render((
   <Provider store={store}>
@@ -21,6 +22,15 @@ render((
           render={() => (
              <App>
               <InitialScreen />
+            </App>
+          )}
+        />
+        <Route
+          exact
+          path="/"
+          render={() => (
+             <App>
+              <ScoreHistory />
             </App>
           )}
         />

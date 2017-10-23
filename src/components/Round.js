@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { Redirect } from 'react-router'
+import axios from 'axios'
 
 import { css } from 'aphrodite/no-important'
 import styles from '../styles/Round.style'
@@ -29,6 +30,9 @@ export default class Round extends Component {
     for(const win in wins) {
       if (wins[win] === 3) {
         this.props.winner(win)
+        axios.post('http://localhost:3000/winners', {
+          name: win
+        })
         return <Redirect to="/winner" />
       }
     }

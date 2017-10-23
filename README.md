@@ -12,6 +12,7 @@ An extremely addictive game of using react, react-router, webpack in development
 * **Aphodite styles**
 * **Yarn**
 * **Nightwatch**
+* **JSON Server**
 
 ## Hosts file
 Add the following line in your hosts file
@@ -19,8 +20,10 @@ Add the following line in your hosts file
 
 ## Run Dev
 
-* webpack dev server with hot reloading, no server rendering
+* Webpack dev server with hot reloading, no server rendering, and also run
+  json-server for FAKE rest service and storage.
 
+* Make sure the db.json file exists, otherwise the json-server will fail.
 ```
 yarn dev
 ```
