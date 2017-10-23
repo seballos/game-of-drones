@@ -2,14 +2,19 @@
 
 An extremely addictive game of using react, react-router, webpack and css modules in development
 
-## Dependencies
+## Tools
 
-* **react** `15.3.1`
-* **react-router** `2.8.1`
-* **babel** `6.7.6`
-* **webpack** `1.13.2`
-* **webpack-dev-server** `1.16.2`
-* **express** `4.13.4`
+* **React@16**
+* **Redux**
+* **Babel**
+* **Webpack**
+* **Ava**
+* **Aphodite styles**
+* **Yarn**
+
+## Hosts file
+Add the following line in your hosts file
+* 127.0.0.1 dev.gameofdrones.com
 
 ## Run Dev
 
@@ -21,12 +26,9 @@ yarn dev
 
 ## Testing
 
-* Using Enzyme, Tape and Jsdom
+* Using Enzyme, Ava, and browser-env
 
 ```
 yarn test
 ```
 
-## License
-
-[MIT](http://isekivacenz.mit-license.org/)
