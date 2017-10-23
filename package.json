@@ -6,7 +6,6 @@
   "license": "MIT",
   "dependencies": {
     "aphrodite": "^1.2.5",
-    "classnames": "^2.2.5",
     "history": "^4.7.2",
     "prop-types": "^15.6.0",
     "react": "^16.0.0",

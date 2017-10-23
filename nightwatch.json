@@ -10,7 +10,7 @@
   },
   "test_settings" : {
     "default" : {
-      "selenium_port"  : 4444,
+      "selenium_port"  : 9515,
       "selenium_host"  : "localhost",
       "default_path_prefix" : "",
 

@@ -11,6 +11,7 @@ An extremely addictive game of using react, react-router, webpack in development
 * **Ava**
 * **Aphodite styles**
 * **Yarn**
+* **Nightwatch**
 
 ## Hosts file
 Add the following line in your hosts file
@@ -31,4 +32,10 @@ yarn dev
 ```
 yarn test
 ```
+
+### E2E Test
+
+* Download chrome driver from [here](https://chromedriver.storage.googleapis.com/index.html?path=2.33/)
+* Make sure the application is running with `yarn dev`
+* `yarn e2e`
 
